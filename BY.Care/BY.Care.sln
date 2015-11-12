@@ -1,10 +1,52 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Client Core", "1. Client Core", "{A144B386-3291-43D9-9F1C-AF855338DB4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Client Application", "2. Client Application", "{AEB75312-EBC2-48C3-BFB1-D7858E7AA0D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test", "3. Test", "{21A84C8B-4AF3-475D-BA79-30998F9006F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCare.Pet.Common", "HouseCare.Pet.Common\HouseCare.Pet.Common.csproj", "{D1455082-DA2B-4055-BC5C-4DBF4868E26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCare.Pet.Repository", "HouseCare.Pet.Repository\HouseCare.Pet.Repository.csproj", "{A5181E53-9527-406F-9C61-C8EC2351F704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCare.Pet.Service", "HouseCare.Pet.Service\HouseCare.Pet.Service.csproj", "{38D5B931-D915-4A70-A214-4AFD8A72D844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseCare.Pet.Application", "HouseCare.Pet.Application\HouseCare.Pet.Application.csproj", "{B5209143-B647-4D19-BEAA-95031DD7E99E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1455082-DA2B-4055-BC5C-4DBF4868E26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1455082-DA2B-4055-BC5C-4DBF4868E26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1455082-DA2B-4055-BC5C-4DBF4868E26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1455082-DA2B-4055-BC5C-4DBF4868E26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5181E53-9527-406F-9C61-C8EC2351F704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5181E53-9527-406F-9C61-C8EC2351F704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5181E53-9527-406F-9C61-C8EC2351F704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5181E53-9527-406F-9C61-C8EC2351F704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D5B931-D915-4A70-A214-4AFD8A72D844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D5B931-D915-4A70-A214-4AFD8A72D844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D5B931-D915-4A70-A214-4AFD8A72D844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D5B931-D915-4A70-A214-4AFD8A72D844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5209143-B647-4D19-BEAA-95031DD7E99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5209143-B647-4D19-BEAA-95031DD7E99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5209143-B647-4D19-BEAA-95031DD7E99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5209143-B647-4D19-BEAA-95031DD7E99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1455082-DA2B-4055-BC5C-4DBF4868E26D} = {A144B386-3291-43D9-9F1C-AF855338DB4E}
+		{A5181E53-9527-406F-9C61-C8EC2351F704} = {A144B386-3291-43D9-9F1C-AF855338DB4E}
+		{38D5B931-D915-4A70-A214-4AFD8A72D844} = {A144B386-3291-43D9-9F1C-AF855338DB4E}
+		{B5209143-B647-4D19-BEAA-95031DD7E99E} = {AEB75312-EBC2-48C3-BFB1-D7858E7AA0D2}
 	EndGlobalSection
 EndGlobal
